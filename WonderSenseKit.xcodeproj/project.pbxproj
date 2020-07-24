@@ -9,9 +9,35 @@
 /* Begin PBXBuildFile section */
 		664A75E824CA7E3A00B6DE6B /* WonderSenseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A75DE24CA7E3A00B6DE6B /* WonderSenseKit.framework */; };
 		664A75ED24CA7E3A00B6DE6B /* WonderSenseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A75EC24CA7E3A00B6DE6B /* WonderSenseKitTests.swift */; };
-		664A75EF24CA7E3A00B6DE6B /* WonderSenseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 664A75E124CA7E3A00B6DE6B /* WonderSenseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		664A75FC24CA82C900B6DE6B /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664A75FA24CA82C900B6DE6B /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		664A75FD24CA82C900B6DE6B /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664A75FB24CA82C900B6DE6B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		664A75FF24CA842000B6DE6B /* WSDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A75FE24CA841F00B6DE6B /* WSDataModel.swift */; };
+		664A760724CA842C00B6DE6B /* WSFKF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A760124CA842B00B6DE6B /* WSFKF.swift */; };
+		664A760824CA842C00B6DE6B /* WSDataStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A760224CA842B00B6DE6B /* WSDataStream.swift */; };
+		664A760924CA842C00B6DE6B /* WSFKFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A760324CA842B00B6DE6B /* WSFKFError.swift */; };
+		664A760A24CA842C00B6DE6B /* WSFKFModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A760424CA842B00B6DE6B /* WSFKFModel.swift */; };
+		664A761924CA843400B6DE6B /* WSBLEProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A760D24CA843400B6DE6B /* WSBLEProfile.swift */; };
+		664A761A24CA843400B6DE6B /* WSBLEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A760E24CA843400B6DE6B /* WSBLEModel.swift */; };
+		664A761B24CA843400B6DE6B /* WSBLEScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A760F24CA843400B6DE6B /* WSBLEScanner.swift */; };
+		664A761C24CA843400B6DE6B /* WSBLEGatt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A761024CA843400B6DE6B /* WSBLEGatt.swift */; };
+		664A761D24CA843400B6DE6B /* WSBLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A761124CA843400B6DE6B /* WSBLE.swift */; };
+		664A761E24CA843400B6DE6B /* dataModel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 664A761324CA843400B6DE6B /* dataModel.hpp */; };
+		664A761F24CA843400B6DE6B /* parserObjCpp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 664A761424CA843400B6DE6B /* parserObjCpp.hpp */; };
+		664A762124CA843400B6DE6B /* parserObjCpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 664A761624CA843400B6DE6B /* parserObjCpp.mm */; };
+		664A762224CA843400B6DE6B /* dataModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 664A761724CA843400B6DE6B /* dataModel.mm */; };
+		664A762724CA86FD00B6DE6B /* WonderSenseKit-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 664A762624CA86FD00B6DE6B /* WonderSenseKit-Bridging-Header.h */; };
+		664A762B24CA899500B6DE6B /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 664A762924CA899500B6DE6B /* parser.cpp */; };
+		664A762F24CA8A1800B6DE6B /* parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 664A762E24CA8A1800B6DE6B /* parser.hpp */; };
+		664A763724CA8AB200B6DE6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A763624CA8AB200B6DE6B /* AppDelegate.swift */; };
+		664A763924CA8AB200B6DE6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A763824CA8AB200B6DE6B /* SceneDelegate.swift */; };
+		664A763B24CA8AB200B6DE6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A763A24CA8AB200B6DE6B /* ViewController.swift */; };
+		664A763E24CA8AB200B6DE6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664A763C24CA8AB200B6DE6B /* Main.storyboard */; };
+		664A764024CA8AB700B6DE6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664A763F24CA8AB700B6DE6B /* Assets.xcassets */; };
+		664A764324CA8AB700B6DE6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664A764124CA8AB700B6DE6B /* LaunchScreen.storyboard */; };
+		664A764E24CA8AB700B6DE6B /* WSK_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A764D24CA8AB700B6DE6B /* WSK_DemoTests.swift */; };
+		664A766424CA8AD700B6DE6B /* WonderSenseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A75DE24CA7E3A00B6DE6B /* WonderSenseKit.framework */; };
+		664A766624CA8BAF00B6DE6B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A766524CA8BAF00B6DE6B /* Extension.swift */; };
+		664A766824CA8C2E00B6DE6B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 664A766724CA8C2E00B6DE6B /* Settings.bundle */; };
 		667E851929BA1E8C7F4A6C7B /* Pods_WonderSenseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9268D05C56D2AD45EB1D559F /* Pods_WonderSenseKit.framework */; };
 		796C7FE583FEF0F48C12D8E3 /* Pods_WonderSenseKit_WonderSenseKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73953A5C466F5F9BD003517B /* Pods_WonderSenseKit_WonderSenseKitTests.framework */; };
 /* End PBXBuildFile section */
@@ -23,6 +49,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 664A75DD24CA7E3A00B6DE6B;
 			remoteInfo = WonderSenseKit;
+		};
+		664A764A24CA8AB700B6DE6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664A75D524CA7E3A00B6DE6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664A763324CA8AB200B6DE6B;
+			remoteInfo = "WSK-Demo";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,13 +77,42 @@
 		267EAC28AC0EF2A6B05E9132 /* Pods-WonderSenseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonderSenseKit.debug.xcconfig"; path = "Target Support Files/Pods-WonderSenseKit/Pods-WonderSenseKit.debug.xcconfig"; sourceTree = "<group>"; };
 		3CEEBEE3CAFA293BE4A1FC64 /* Pods-WonderSenseKit-WonderSenseKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonderSenseKit-WonderSenseKitTests.release.xcconfig"; path = "Target Support Files/Pods-WonderSenseKit-WonderSenseKitTests/Pods-WonderSenseKit-WonderSenseKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		664A75DE24CA7E3A00B6DE6B /* WonderSenseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WonderSenseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		664A75E124CA7E3A00B6DE6B /* WonderSenseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WonderSenseKit.h; sourceTree = "<group>"; };
 		664A75E224CA7E3A00B6DE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		664A75E724CA7E3A00B6DE6B /* WonderSenseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderSenseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		664A75EC24CA7E3A00B6DE6B /* WonderSenseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderSenseKitTests.swift; sourceTree = "<group>"; };
 		664A75EE24CA7E3A00B6DE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		664A75FA24CA82C900B6DE6B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		664A75FB24CA82C900B6DE6B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		664A75FA24CA82C900B6DE6B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
+		664A75FB24CA82C900B6DE6B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
+		664A75FE24CA841F00B6DE6B /* WSDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSDataModel.swift; sourceTree = "<group>"; };
+		664A760124CA842B00B6DE6B /* WSFKF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSFKF.swift; sourceTree = "<group>"; };
+		664A760224CA842B00B6DE6B /* WSDataStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSDataStream.swift; sourceTree = "<group>"; };
+		664A760324CA842B00B6DE6B /* WSFKFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSFKFError.swift; sourceTree = "<group>"; };
+		664A760424CA842B00B6DE6B /* WSFKFModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSFKFModel.swift; sourceTree = "<group>"; };
+		664A760D24CA843400B6DE6B /* WSBLEProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBLEProfile.swift; sourceTree = "<group>"; };
+		664A760E24CA843400B6DE6B /* WSBLEModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBLEModel.swift; sourceTree = "<group>"; };
+		664A760F24CA843400B6DE6B /* WSBLEScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBLEScanner.swift; sourceTree = "<group>"; };
+		664A761024CA843400B6DE6B /* WSBLEGatt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBLEGatt.swift; sourceTree = "<group>"; };
+		664A761124CA843400B6DE6B /* WSBLE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBLE.swift; sourceTree = "<group>"; };
+		664A761324CA843400B6DE6B /* dataModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dataModel.hpp; sourceTree = "<group>"; };
+		664A761424CA843400B6DE6B /* parserObjCpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = parserObjCpp.hpp; sourceTree = "<group>"; };
+		664A761624CA843400B6DE6B /* parserObjCpp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = parserObjCpp.mm; sourceTree = "<group>"; };
+		664A761724CA843400B6DE6B /* dataModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = dataModel.mm; sourceTree = "<group>"; };
+		664A762624CA86FD00B6DE6B /* WonderSenseKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WonderSenseKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		664A762924CA899500B6DE6B /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cpp; sourceTree = "<group>"; };
+		664A762E24CA8A1800B6DE6B /* parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = parser.hpp; sourceTree = "<group>"; };
+		664A763424CA8AB200B6DE6B /* WSK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WSK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		664A763624CA8AB200B6DE6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		664A763824CA8AB200B6DE6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		664A763A24CA8AB200B6DE6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		664A763D24CA8AB200B6DE6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		664A763F24CA8AB700B6DE6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		664A764224CA8AB700B6DE6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		664A764424CA8AB700B6DE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664A764924CA8AB700B6DE6B /* WSK-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WSK-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		664A764D24CA8AB700B6DE6B /* WSK_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSK_DemoTests.swift; sourceTree = "<group>"; };
+		664A764F24CA8AB700B6DE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664A766524CA8BAF00B6DE6B /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		664A766724CA8C2E00B6DE6B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		677B32AA4A4D50DAEA28BD3C /* Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig"; path = "Target Support Files/Pods-WonderSenseKit-WonderSenseKitTests/Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		73953A5C466F5F9BD003517B /* Pods_WonderSenseKit_WonderSenseKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WonderSenseKit_WonderSenseKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9268D05C56D2AD45EB1D559F /* Pods_WonderSenseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WonderSenseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,12 +137,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		664A763124CA8AB200B6DE6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664A766424CA8AD700B6DE6B /* WonderSenseKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664A764624CA8AB700B6DE6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3EAC46E9764430AE4FFC5ADD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				664A75FB24CA82C900B6DE6B /* Nimble.framework */,
+				664A75FA24CA82C900B6DE6B /* Quick.framework */,
 				9268D05C56D2AD45EB1D559F /* Pods_WonderSenseKit.framework */,
 				73953A5C466F5F9BD003517B /* Pods_WonderSenseKit_WonderSenseKitTests.framework */,
 			);
@@ -90,10 +169,10 @@
 		664A75D424CA7E3A00B6DE6B = {
 			isa = PBXGroup;
 			children = (
-				664A75FB24CA82C900B6DE6B /* Nimble.framework */,
-				664A75FA24CA82C900B6DE6B /* Quick.framework */,
 				664A75E024CA7E3A00B6DE6B /* WonderSenseKit */,
 				664A75EB24CA7E3A00B6DE6B /* WonderSenseKitTests */,
+				664A763524CA8AB200B6DE6B /* WSK-Demo */,
+				664A764C24CA8AB700B6DE6B /* WSK-DemoTests */,
 				664A75DF24CA7E3A00B6DE6B /* Products */,
 				6A87F64929EFC0475280E870 /* Pods */,
 				3EAC46E9764430AE4FFC5ADD /* Frameworks */,
@@ -105,6 +184,8 @@
 			children = (
 				664A75DE24CA7E3A00B6DE6B /* WonderSenseKit.framework */,
 				664A75E724CA7E3A00B6DE6B /* WonderSenseKitTests.xctest */,
+				664A763424CA8AB200B6DE6B /* WSK-Demo.app */,
+				664A764924CA8AB700B6DE6B /* WSK-DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,8 +193,16 @@
 		664A75E024CA7E3A00B6DE6B /* WonderSenseKit */ = {
 			isa = PBXGroup;
 			children = (
-				664A75E124CA7E3A00B6DE6B /* WonderSenseKit.h */,
+				664A766724CA8C2E00B6DE6B /* Settings.bundle */,
+				664A762624CA86FD00B6DE6B /* WonderSenseKit-Bridging-Header.h */,
 				664A75E224CA7E3A00B6DE6B /* Info.plist */,
+				664A761224CA843400B6DE6B /* Parser */,
+				664A760C24CA843400B6DE6B /* BLE */,
+				664A75FE24CA841F00B6DE6B /* WSDataModel.swift */,
+				664A760224CA842B00B6DE6B /* WSDataStream.swift */,
+				664A760124CA842B00B6DE6B /* WSFKF.swift */,
+				664A760324CA842B00B6DE6B /* WSFKFError.swift */,
+				664A760424CA842B00B6DE6B /* WSFKFModel.swift */,
 			);
 			path = WonderSenseKit;
 			sourceTree = "<group>";
@@ -125,6 +214,71 @@
 				664A75EE24CA7E3A00B6DE6B /* Info.plist */,
 			);
 			path = WonderSenseKitTests;
+			sourceTree = "<group>";
+		};
+		664A760C24CA843400B6DE6B /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				664A760D24CA843400B6DE6B /* WSBLEProfile.swift */,
+				664A760E24CA843400B6DE6B /* WSBLEModel.swift */,
+				664A760F24CA843400B6DE6B /* WSBLEScanner.swift */,
+				664A761024CA843400B6DE6B /* WSBLEGatt.swift */,
+				664A761124CA843400B6DE6B /* WSBLE.swift */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		664A761224CA843400B6DE6B /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				664A761324CA843400B6DE6B /* dataModel.hpp */,
+				664A761724CA843400B6DE6B /* dataModel.mm */,
+				664A761424CA843400B6DE6B /* parserObjCpp.hpp */,
+				664A761624CA843400B6DE6B /* parserObjCpp.mm */,
+				664A762D24CA89CC00B6DE6B /* include */,
+				664A762824CA88F000B6DE6B /* src */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		664A762824CA88F000B6DE6B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				664A762924CA899500B6DE6B /* parser.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		664A762D24CA89CC00B6DE6B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				664A762E24CA8A1800B6DE6B /* parser.hpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		664A763524CA8AB200B6DE6B /* WSK-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				664A763624CA8AB200B6DE6B /* AppDelegate.swift */,
+				664A763824CA8AB200B6DE6B /* SceneDelegate.swift */,
+				664A763A24CA8AB200B6DE6B /* ViewController.swift */,
+				664A766524CA8BAF00B6DE6B /* Extension.swift */,
+				664A763C24CA8AB200B6DE6B /* Main.storyboard */,
+				664A763F24CA8AB700B6DE6B /* Assets.xcassets */,
+				664A764124CA8AB700B6DE6B /* LaunchScreen.storyboard */,
+				664A764424CA8AB700B6DE6B /* Info.plist */,
+			);
+			path = "WSK-Demo";
+			sourceTree = "<group>";
+		};
+		664A764C24CA8AB700B6DE6B /* WSK-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				664A764D24CA8AB700B6DE6B /* WSK_DemoTests.swift */,
+				664A764F24CA8AB700B6DE6B /* Info.plist */,
+			);
+			path = "WSK-DemoTests";
 			sourceTree = "<group>";
 		};
 		6A87F64929EFC0475280E870 /* Pods */ = {
@@ -145,7 +299,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664A75EF24CA7E3A00B6DE6B /* WonderSenseKit.h in Headers */,
+				664A761E24CA843400B6DE6B /* dataModel.hpp in Headers */,
+				664A762F24CA8A1800B6DE6B /* parser.hpp in Headers */,
+				664A762724CA86FD00B6DE6B /* WonderSenseKit-Bridging-Header.h in Headers */,
+				664A761F24CA843400B6DE6B /* parserObjCpp.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +349,41 @@
 			productReference = 664A75E724CA7E3A00B6DE6B /* WonderSenseKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		664A763324CA8AB200B6DE6B /* WSK-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664A765B24CA8AB700B6DE6B /* Build configuration list for PBXNativeTarget "WSK-Demo" */;
+			buildPhases = (
+				664A763024CA8AB200B6DE6B /* Sources */,
+				664A763124CA8AB200B6DE6B /* Frameworks */,
+				664A763224CA8AB200B6DE6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WSK-Demo";
+			productName = "WSK-Demo";
+			productReference = 664A763424CA8AB200B6DE6B /* WSK-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		664A764824CA8AB700B6DE6B /* WSK-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664A765E24CA8AB700B6DE6B /* Build configuration list for PBXNativeTarget "WSK-DemoTests" */;
+			buildPhases = (
+				664A764524CA8AB700B6DE6B /* Sources */,
+				664A764624CA8AB700B6DE6B /* Frameworks */,
+				664A764724CA8AB700B6DE6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664A764B24CA8AB700B6DE6B /* PBXTargetDependency */,
+			);
+			name = "WSK-DemoTests";
+			productName = "WSK-DemoTests";
+			productReference = 664A764924CA8AB700B6DE6B /* WSK-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,9 +396,17 @@
 				TargetAttributes = {
 					664A75DD24CA7E3A00B6DE6B = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					664A75E624CA7E3A00B6DE6B = {
 						CreatedOnToolsVersion = 11.5;
+					};
+					664A763324CA8AB200B6DE6B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					664A764824CA8AB700B6DE6B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 664A763324CA8AB200B6DE6B;
 					};
 				};
 			};
@@ -225,6 +425,8 @@
 			targets = (
 				664A75DD24CA7E3A00B6DE6B /* WonderSenseKit */,
 				664A75E624CA7E3A00B6DE6B /* WonderSenseKitTests */,
+				664A763324CA8AB200B6DE6B /* WSK-Demo */,
+				664A764824CA8AB700B6DE6B /* WSK-DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,10 +436,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664A766824CA8C2E00B6DE6B /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		664A75E524CA7E3A00B6DE6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664A763224CA8AB200B6DE6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664A764324CA8AB700B6DE6B /* LaunchScreen.storyboard in Resources */,
+				664A764024CA8AB700B6DE6B /* Assets.xcassets in Resources */,
+				664A763E24CA8AB200B6DE6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664A764724CA8AB700B6DE6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,6 +535,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664A761C24CA843400B6DE6B /* WSBLEGatt.swift in Sources */,
+				664A761D24CA843400B6DE6B /* WSBLE.swift in Sources */,
+				664A762124CA843400B6DE6B /* parserObjCpp.mm in Sources */,
+				664A761B24CA843400B6DE6B /* WSBLEScanner.swift in Sources */,
+				664A760824CA842C00B6DE6B /* WSDataStream.swift in Sources */,
+				664A761A24CA843400B6DE6B /* WSBLEModel.swift in Sources */,
+				664A761924CA843400B6DE6B /* WSBLEProfile.swift in Sources */,
+				664A762224CA843400B6DE6B /* dataModel.mm in Sources */,
+				664A760724CA842C00B6DE6B /* WSFKF.swift in Sources */,
+				664A75FF24CA842000B6DE6B /* WSDataModel.swift in Sources */,
+				664A760924CA842C00B6DE6B /* WSFKFError.swift in Sources */,
+				664A760A24CA842C00B6DE6B /* WSFKFModel.swift in Sources */,
+				664A762B24CA899500B6DE6B /* parser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +559,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		664A763024CA8AB200B6DE6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664A763B24CA8AB200B6DE6B /* ViewController.swift in Sources */,
+				664A763724CA8AB200B6DE6B /* AppDelegate.swift in Sources */,
+				664A763924CA8AB200B6DE6B /* SceneDelegate.swift in Sources */,
+				664A766624CA8BAF00B6DE6B /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664A764524CA8AB700B6DE6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664A764E24CA8AB700B6DE6B /* WSK_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -334,7 +586,31 @@
 			target = 664A75DD24CA7E3A00B6DE6B /* WonderSenseKit */;
 			targetProxy = 664A75E924CA7E3A00B6DE6B /* PBXContainerItemProxy */;
 		};
+		664A764B24CA8AB700B6DE6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664A763324CA8AB200B6DE6B /* WSK-Demo */;
+			targetProxy = 664A764A24CA8AB700B6DE6B /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		664A763C24CA8AB200B6DE6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664A763D24CA8AB200B6DE6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		664A764124CA8AB700B6DE6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664A764224CA8AB700B6DE6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		664A75F024CA7E3A00B6DE6B /* Debug */ = {
@@ -461,6 +737,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 267EAC28AC0EF2A6B05E9132 /* Pods-WonderSenseKit.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 339P82ZNV5;
@@ -477,6 +754,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wonder-wonder.ios.WonderSenseKit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/WonderSenseKit/WonderSenseKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -486,6 +765,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C75AD8DF4D705266A831C650 /* Pods-WonderSenseKit.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 339P82ZNV5;
@@ -502,6 +782,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wonder-wonder.ios.WonderSenseKit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/WonderSenseKit/WonderSenseKit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -511,6 +792,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 677B32AA4A4D50DAEA28BD3C /* Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 339P82ZNV5;
 				INFOPLIST_FILE = WonderSenseKitTests/Info.plist;
@@ -521,6 +803,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wonder-wonder.ios.WonderSenseKitTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/WonderSenseKit/WonderSenseKit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -530,6 +813,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3CEEBEE3CAFA293BE4A1FC64 /* Pods-WonderSenseKit-WonderSenseKitTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 339P82ZNV5;
 				INFOPLIST_FILE = WonderSenseKitTests/Info.plist;
@@ -540,8 +824,89 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wonder-wonder.ios.WonderSenseKitTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/WonderSenseKit/WonderSenseKit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		664A765C24CA8AB700B6DE6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339P82ZNV5;
+				INFOPLIST_FILE = "WSK-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wonder-wonder.ios.WSK-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		664A765D24CA8AB700B6DE6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339P82ZNV5;
+				INFOPLIST_FILE = "WSK-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wonder-wonder.ios.WSK-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		664A765F24CA8AB700B6DE6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339P82ZNV5;
+				INFOPLIST_FILE = "WSK-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wonder-wonder.ios.WSK-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSK-Demo.app/WSK-Demo";
+			};
+			name = Debug;
+		};
+		664A766024CA8AB700B6DE6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339P82ZNV5;
+				INFOPLIST_FILE = "WSK-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wonder-wonder.ios.WSK-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSK-Demo.app/WSK-Demo";
 			};
 			name = Release;
 		};
@@ -571,6 +936,24 @@
 			buildConfigurations = (
 				664A75F624CA7E3A00B6DE6B /* Debug */,
 				664A75F724CA7E3A00B6DE6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664A765B24CA8AB700B6DE6B /* Build configuration list for PBXNativeTarget "WSK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664A765C24CA8AB700B6DE6B /* Debug */,
+				664A765D24CA8AB700B6DE6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664A765E24CA8AB700B6DE6B /* Build configuration list for PBXNativeTarget "WSK-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664A765F24CA8AB700B6DE6B /* Debug */,
+				664A766024CA8AB700B6DE6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

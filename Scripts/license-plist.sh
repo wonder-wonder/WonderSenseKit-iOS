@@ -9,4 +9,4 @@ else
 	exit 1
 fi
 
-${LICENSE_PLIST} --output-path ./WS-iOS-SDK/Settings.bundle
+${LICENSE_PLIST} --output-path ./WonderSenseKit/Settings.bundle
