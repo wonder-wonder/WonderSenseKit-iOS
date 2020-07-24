@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "parserObjCpp.hpp"
-#import "parser.hpp"
+#import "parserObjCpp.h"
+#import "parser.h"
 
 @implementation parserObjCpp {}
 

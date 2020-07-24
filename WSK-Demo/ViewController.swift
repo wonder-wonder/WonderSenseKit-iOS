@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var logTextView: UITextView!
     
     // MARK: Properties
-    
+
     private var ws: WSBLE?
     
     override func viewDidLoad() {

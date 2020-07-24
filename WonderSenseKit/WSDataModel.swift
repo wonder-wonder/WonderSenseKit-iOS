@@ -10,7 +10,7 @@ import Foundation
 
 @objcMembers
 final public class Quaternion: NSObject {
-    
+
     var q0: Double = 0.0
     var q1: Double = 0.0
     var q2: Double = 0.0
@@ -22,7 +22,7 @@ protocol FilterData: NSObject {
 
 @objcMembers
 final public class WSFilterResult: NSObject, FilterData {
-    
+
     var ax: Double = 0.0
     var ay: Double = 0.0
     var az: Double = 0.0

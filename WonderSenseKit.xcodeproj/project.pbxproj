@@ -19,13 +19,12 @@
 		664A761B24CA843400B6DE6B /* WSBLEScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A760F24CA843400B6DE6B /* WSBLEScanner.swift */; };
 		664A761C24CA843400B6DE6B /* WSBLEGatt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A761024CA843400B6DE6B /* WSBLEGatt.swift */; };
 		664A761D24CA843400B6DE6B /* WSBLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A761124CA843400B6DE6B /* WSBLE.swift */; };
-		664A761E24CA843400B6DE6B /* dataModel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 664A761324CA843400B6DE6B /* dataModel.hpp */; };
-		664A761F24CA843400B6DE6B /* parserObjCpp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 664A761424CA843400B6DE6B /* parserObjCpp.hpp */; };
+		664A761E24CA843400B6DE6B /* dataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 664A761324CA843400B6DE6B /* dataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		664A761F24CA843400B6DE6B /* parserObjCpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 664A761424CA843400B6DE6B /* parserObjCpp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		664A762124CA843400B6DE6B /* parserObjCpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 664A761624CA843400B6DE6B /* parserObjCpp.mm */; };
 		664A762224CA843400B6DE6B /* dataModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 664A761724CA843400B6DE6B /* dataModel.mm */; };
-		664A762724CA86FD00B6DE6B /* WonderSenseKit-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 664A762624CA86FD00B6DE6B /* WonderSenseKit-Bridging-Header.h */; };
 		664A762B24CA899500B6DE6B /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 664A762924CA899500B6DE6B /* parser.cpp */; };
-		664A762F24CA8A1800B6DE6B /* parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 664A762E24CA8A1800B6DE6B /* parser.hpp */; };
+		664A762F24CA8A1800B6DE6B /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 664A762E24CA8A1800B6DE6B /* parser.h */; };
 		664A763724CA8AB200B6DE6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A763624CA8AB200B6DE6B /* AppDelegate.swift */; };
 		664A763924CA8AB200B6DE6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A763824CA8AB200B6DE6B /* SceneDelegate.swift */; };
 		664A763B24CA8AB200B6DE6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A763A24CA8AB200B6DE6B /* ViewController.swift */; };
@@ -33,11 +32,20 @@
 		664A764024CA8AB700B6DE6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664A763F24CA8AB700B6DE6B /* Assets.xcassets */; };
 		664A764324CA8AB700B6DE6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664A764124CA8AB700B6DE6B /* LaunchScreen.storyboard */; };
 		664A764E24CA8AB700B6DE6B /* WSK_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A764D24CA8AB700B6DE6B /* WSK_DemoTests.swift */; };
-		664A766424CA8AD700B6DE6B /* WonderSenseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A75DE24CA7E3A00B6DE6B /* WonderSenseKit.framework */; };
 		664A766624CA8BAF00B6DE6B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A766524CA8BAF00B6DE6B /* Extension.swift */; };
 		664A766824CA8C2E00B6DE6B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 664A766724CA8C2E00B6DE6B /* Settings.bundle */; };
-		664A766B24CA8E0F00B6DE6B /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664A766A24CA8E0F00B6DE6B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		664A766D24CA8E1E00B6DE6B /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664A766C24CA8E1E00B6DE6B /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		664A767624CA917000B6DE6B /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664A767424CA917000B6DE6B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		664A767724CA917000B6DE6B /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664A767524CA917000B6DE6B /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		664A768724CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 664A767F24CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftdoc */; };
+		664A768824CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 664A768024CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftmodule */; };
+		664A768924CA9F4300B6DE6B /* x86_64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 664A768124CA9F4300B6DE6B /* x86_64.swiftdoc */; };
+		664A768A24CA9F4300B6DE6B /* x86_64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 664A768224CA9F4300B6DE6B /* x86_64.swiftmodule */; };
+		664A768B24CA9F4300B6DE6B /* x86_64.swiftsourceinfo in Resources */ = {isa = PBXBuildFile; fileRef = 664A768424CA9F4300B6DE6B /* x86_64.swiftsourceinfo */; };
+		664A768C24CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftsourceinfo in Resources */ = {isa = PBXBuildFile; fileRef = 664A768524CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftsourceinfo */; };
+		664A768D24CA9F4300B6DE6B /* libWonderSenseLib-Filter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A768624CA9F4300B6DE6B /* libWonderSenseLib-Filter.a */; };
+		664A76F124CAF5E600B6DE6B /* WonderSenseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 664A76EF24CAB8E800B6DE6B /* WonderSenseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		664A76F224CAF7CF00B6DE6B /* WonderSenseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A75DE24CA7E3A00B6DE6B /* WonderSenseKit.framework */; };
+		664A76F324CAF7CF00B6DE6B /* WonderSenseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 664A75DE24CA7E3A00B6DE6B /* WonderSenseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		667E851929BA1E8C7F4A6C7B /* Pods_WonderSenseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9268D05C56D2AD45EB1D559F /* Pods_WonderSenseKit.framework */; };
 		796C7FE583FEF0F48C12D8E3 /* Pods_WonderSenseKit_WonderSenseKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73953A5C466F5F9BD003517B /* Pods_WonderSenseKit_WonderSenseKitTests.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +65,13 @@
 			remoteGlobalIDString = 664A763324CA8AB200B6DE6B;
 			remoteInfo = "WSK-Demo";
 		};
+		664A76F424CAF7CF00B6DE6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664A75D524CA7E3A00B6DE6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664A75DD24CA7E3A00B6DE6B;
+			remoteInfo = WonderSenseKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,9 +90,20 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				664A766D24CA8E1E00B6DE6B /* Quick.framework in CopyFiles */,
-				664A766B24CA8E0F00B6DE6B /* Nimble.framework in CopyFiles */,
+				664A767624CA917000B6DE6B /* Nimble.framework in CopyFiles */,
+				664A767724CA917000B6DE6B /* Quick.framework in CopyFiles */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664A76F624CAF7D000B6DE6B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				664A76F324CAF7CF00B6DE6B /* WonderSenseKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -100,13 +126,12 @@
 		664A760F24CA843400B6DE6B /* WSBLEScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBLEScanner.swift; sourceTree = "<group>"; };
 		664A761024CA843400B6DE6B /* WSBLEGatt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBLEGatt.swift; sourceTree = "<group>"; };
 		664A761124CA843400B6DE6B /* WSBLE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBLE.swift; sourceTree = "<group>"; };
-		664A761324CA843400B6DE6B /* dataModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dataModel.hpp; sourceTree = "<group>"; };
-		664A761424CA843400B6DE6B /* parserObjCpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = parserObjCpp.hpp; sourceTree = "<group>"; };
+		664A761324CA843400B6DE6B /* dataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataModel.h; sourceTree = "<group>"; };
+		664A761424CA843400B6DE6B /* parserObjCpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parserObjCpp.h; sourceTree = "<group>"; };
 		664A761624CA843400B6DE6B /* parserObjCpp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = parserObjCpp.mm; sourceTree = "<group>"; };
 		664A761724CA843400B6DE6B /* dataModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = dataModel.mm; sourceTree = "<group>"; };
-		664A762624CA86FD00B6DE6B /* WonderSenseKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WonderSenseKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		664A762924CA899500B6DE6B /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cpp; sourceTree = "<group>"; };
-		664A762E24CA8A1800B6DE6B /* parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = parser.hpp; sourceTree = "<group>"; };
+		664A762E24CA8A1800B6DE6B /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
 		664A763424CA8AB200B6DE6B /* WSK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WSK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		664A763624CA8AB200B6DE6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		664A763824CA8AB200B6DE6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,8 +145,16 @@
 		664A764F24CA8AB700B6DE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		664A766524CA8BAF00B6DE6B /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		664A766724CA8C2E00B6DE6B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		664A766A24CA8E0F00B6DE6B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
-		664A766C24CA8E1E00B6DE6B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
+		664A767424CA917000B6DE6B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		664A767524CA917000B6DE6B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		664A767F24CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftdoc"; sourceTree = "<group>"; };
+		664A768024CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftmodule"; sourceTree = "<group>"; };
+		664A768124CA9F4300B6DE6B /* x86_64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftdoc; sourceTree = "<group>"; };
+		664A768224CA9F4300B6DE6B /* x86_64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftmodule; sourceTree = "<group>"; };
+		664A768424CA9F4300B6DE6B /* x86_64.swiftsourceinfo */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftsourceinfo; sourceTree = "<group>"; };
+		664A768524CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftsourceinfo */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftsourceinfo"; sourceTree = "<group>"; };
+		664A768624CA9F4300B6DE6B /* libWonderSenseLib-Filter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libWonderSenseLib-Filter.a"; sourceTree = "<group>"; };
+		664A76EF24CAB8E800B6DE6B /* WonderSenseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WonderSenseKit.h; sourceTree = "<group>"; };
 		677B32AA4A4D50DAEA28BD3C /* Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig"; path = "Target Support Files/Pods-WonderSenseKit-WonderSenseKitTests/Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		73953A5C466F5F9BD003517B /* Pods_WonderSenseKit_WonderSenseKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WonderSenseKit_WonderSenseKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9268D05C56D2AD45EB1D559F /* Pods_WonderSenseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WonderSenseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				667E851929BA1E8C7F4A6C7B /* Pods_WonderSenseKit.framework in Frameworks */,
+				664A768D24CA9F4300B6DE6B /* libWonderSenseLib-Filter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664A766424CA8AD700B6DE6B /* WonderSenseKit.framework in Frameworks */,
+				664A76F224CAF7CF00B6DE6B /* WonderSenseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,8 +201,6 @@
 		3EAC46E9764430AE4FFC5ADD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				664A766C24CA8E1E00B6DE6B /* Quick.framework */,
-				664A766A24CA8E0F00B6DE6B /* Nimble.framework */,
 				9268D05C56D2AD45EB1D559F /* Pods_WonderSenseKit.framework */,
 				73953A5C466F5F9BD003517B /* Pods_WonderSenseKit_WonderSenseKitTests.framework */,
 			);
@@ -178,11 +210,14 @@
 		664A75D424CA7E3A00B6DE6B = {
 			isa = PBXGroup;
 			children = (
+				664A767424CA917000B6DE6B /* Nimble.framework */,
+				664A767524CA917000B6DE6B /* Quick.framework */,
 				664A75E024CA7E3A00B6DE6B /* WonderSenseKit */,
 				664A75EB24CA7E3A00B6DE6B /* WonderSenseKitTests */,
 				664A763524CA8AB200B6DE6B /* WSK-Demo */,
 				664A764C24CA8AB700B6DE6B /* WSK-DemoTests */,
 				664A75DF24CA7E3A00B6DE6B /* Products */,
+				664A767D24CA9F4300B6DE6B /* Lib */,
 				6A87F64929EFC0475280E870 /* Pods */,
 				3EAC46E9764430AE4FFC5ADD /* Frameworks */,
 			);
@@ -203,7 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				664A766724CA8C2E00B6DE6B /* Settings.bundle */,
-				664A762624CA86FD00B6DE6B /* WonderSenseKit-Bridging-Header.h */,
+				664A76EF24CAB8E800B6DE6B /* WonderSenseKit.h */,
 				664A75E224CA7E3A00B6DE6B /* Info.plist */,
 				664A761224CA843400B6DE6B /* Parser */,
 				664A760C24CA843400B6DE6B /* BLE */,
@@ -240,9 +275,9 @@
 		664A761224CA843400B6DE6B /* Parser */ = {
 			isa = PBXGroup;
 			children = (
-				664A761324CA843400B6DE6B /* dataModel.hpp */,
+				664A761324CA843400B6DE6B /* dataModel.h */,
 				664A761724CA843400B6DE6B /* dataModel.mm */,
-				664A761424CA843400B6DE6B /* parserObjCpp.hpp */,
+				664A761424CA843400B6DE6B /* parserObjCpp.h */,
 				664A761624CA843400B6DE6B /* parserObjCpp.mm */,
 				664A762D24CA89CC00B6DE6B /* include */,
 				664A762824CA88F000B6DE6B /* src */,
@@ -261,7 +296,7 @@
 		664A762D24CA89CC00B6DE6B /* include */ = {
 			isa = PBXGroup;
 			children = (
-				664A762E24CA8A1800B6DE6B /* parser.hpp */,
+				664A762E24CA8A1800B6DE6B /* parser.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -290,6 +325,36 @@
 			path = "WSK-DemoTests";
 			sourceTree = "<group>";
 		};
+		664A767D24CA9F4300B6DE6B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				664A767E24CA9F4300B6DE6B /* WonderSenseLib_Filter.swiftmodule */,
+				664A768624CA9F4300B6DE6B /* libWonderSenseLib-Filter.a */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		664A767E24CA9F4300B6DE6B /* WonderSenseLib_Filter.swiftmodule */ = {
+			isa = PBXGroup;
+			children = (
+				664A767F24CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftdoc */,
+				664A768024CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftmodule */,
+				664A768124CA9F4300B6DE6B /* x86_64.swiftdoc */,
+				664A768224CA9F4300B6DE6B /* x86_64.swiftmodule */,
+				664A768324CA9F4300B6DE6B /* Project */,
+			);
+			path = WonderSenseLib_Filter.swiftmodule;
+			sourceTree = "<group>";
+		};
+		664A768324CA9F4300B6DE6B /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				664A768424CA9F4300B6DE6B /* x86_64.swiftsourceinfo */,
+				664A768524CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftsourceinfo */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
 		6A87F64929EFC0475280E870 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,10 +373,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664A761E24CA843400B6DE6B /* dataModel.hpp in Headers */,
-				664A762F24CA8A1800B6DE6B /* parser.hpp in Headers */,
-				664A762724CA86FD00B6DE6B /* WonderSenseKit-Bridging-Header.h in Headers */,
-				664A761F24CA843400B6DE6B /* parserObjCpp.hpp in Headers */,
+				664A76F124CAF5E600B6DE6B /* WonderSenseKit.h in Headers */,
+				664A761E24CA843400B6DE6B /* dataModel.h in Headers */,
+				664A761F24CA843400B6DE6B /* parserObjCpp.h in Headers */,
+				664A762F24CA8A1800B6DE6B /* parser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,10 +431,12 @@
 				664A763024CA8AB200B6DE6B /* Sources */,
 				664A763124CA8AB200B6DE6B /* Frameworks */,
 				664A763224CA8AB200B6DE6B /* Resources */,
+				664A76F624CAF7D000B6DE6B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				664A76F524CAF7CF00B6DE6B /* PBXTargetDependency */,
 			);
 			name = "WSK-Demo";
 			productName = "WSK-Demo";
@@ -446,7 +513,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664A768C24CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftsourceinfo in Resources */,
+				664A768A24CA9F4300B6DE6B /* x86_64.swiftmodule in Resources */,
+				664A768B24CA9F4300B6DE6B /* x86_64.swiftsourceinfo in Resources */,
 				664A766824CA8C2E00B6DE6B /* Settings.bundle in Resources */,
+				664A768724CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftdoc in Resources */,
+				664A768824CA9F4300B6DE6B /* x86_64-apple-ios-simulator.swiftmodule in Resources */,
+				664A768924CA9F4300B6DE6B /* x86_64.swiftdoc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,6 +673,11 @@
 			isa = PBXTargetDependency;
 			target = 664A763324CA8AB200B6DE6B /* WSK-Demo */;
 			targetProxy = 664A764A24CA8AB700B6DE6B /* PBXContainerItemProxy */;
+		};
+		664A76F524CAF7CF00B6DE6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664A75DD24CA7E3A00B6DE6B /* WonderSenseKit */;
+			targetProxy = 664A76F424CAF7CF00B6DE6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -761,10 +839,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wonder-wonder.ios.WonderSenseKit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/WonderSenseKit/WonderSenseKit-Bridging-Header.h";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Lib";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -789,10 +875,17 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wonder-wonder.ios.WonderSenseKit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/WonderSenseKit/WonderSenseKit-Bridging-Header.h";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Lib";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -813,7 +906,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wonder-wonder.ios.WonderSenseKitTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/WonderSenseKit/WonderSenseKit-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -834,7 +927,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wonder-wonder.ios.WonderSenseKitTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/WonderSenseKit/WonderSenseKit-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

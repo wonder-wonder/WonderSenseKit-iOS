@@ -6,10 +6,5 @@
 //  Copyright © 2020 WonderWonder. All rights reserved.
 //
 
-#ifndef WonderSenseKit_Bridging_Header_h
-#define WonderSenseKit_Bridging_Header_h
-
 #import "parserObjCpp.hpp"
 #import "dataModel.hpp"
-
-#endif /* WonderSenseKit_Bridging_Header_h */

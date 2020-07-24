@@ -7,12 +7,13 @@
 //
 
 import Foundation
+import WonderSenseLib_Filter
 
 // MARK: Type
 protocol WSDataStreamType {
     
     func setRawDataCB(cbFunc: () -> Void)
-    func setFilteredDataCB(filter: WSFilter, cbFunc: () -> Void)
+    func setFilteredDataCB(filter: WSFilterType, cbFunc: () -> Void)
     func receiveData(data: RawData)
 }
 
@@ -22,7 +23,7 @@ final class WSDataStream: WSDataStreamType {
         
     }
     
-    func setFilteredDataCB(filter: WSFilter, cbFunc: () -> Void) {
+    func setFilteredDataCB(filter: WSFilterType, cbFunc: () -> Void) {
         
     }
     

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "dataModel.hpp"
+#import "dataModel.h"
 
 @implementation RawData : NSObject
 @end
