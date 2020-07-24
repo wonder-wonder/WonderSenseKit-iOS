@@ -10,6 +10,10 @@
 		664A75E824CA7E3A00B6DE6B /* WonderSenseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A75DE24CA7E3A00B6DE6B /* WonderSenseKit.framework */; };
 		664A75ED24CA7E3A00B6DE6B /* WonderSenseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A75EC24CA7E3A00B6DE6B /* WonderSenseKitTests.swift */; };
 		664A75EF24CA7E3A00B6DE6B /* WonderSenseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 664A75E124CA7E3A00B6DE6B /* WonderSenseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		664A75FC24CA82C900B6DE6B /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664A75FA24CA82C900B6DE6B /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		664A75FD24CA82C900B6DE6B /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664A75FB24CA82C900B6DE6B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		667E851929BA1E8C7F4A6C7B /* Pods_WonderSenseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9268D05C56D2AD45EB1D559F /* Pods_WonderSenseKit.framework */; };
+		796C7FE583FEF0F48C12D8E3 /* Pods_WonderSenseKit_WonderSenseKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73953A5C466F5F9BD003517B /* Pods_WonderSenseKit_WonderSenseKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,13 +26,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		664A75F924CA829700B6DE6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				664A75FC24CA82C900B6DE6B /* Quick.framework in CopyFiles */,
+				664A75FD24CA82C900B6DE6B /* Nimble.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		267EAC28AC0EF2A6B05E9132 /* Pods-WonderSenseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonderSenseKit.debug.xcconfig"; path = "Target Support Files/Pods-WonderSenseKit/Pods-WonderSenseKit.debug.xcconfig"; sourceTree = "<group>"; };
+		3CEEBEE3CAFA293BE4A1FC64 /* Pods-WonderSenseKit-WonderSenseKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonderSenseKit-WonderSenseKitTests.release.xcconfig"; path = "Target Support Files/Pods-WonderSenseKit-WonderSenseKitTests/Pods-WonderSenseKit-WonderSenseKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		664A75DE24CA7E3A00B6DE6B /* WonderSenseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WonderSenseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		664A75E124CA7E3A00B6DE6B /* WonderSenseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WonderSenseKit.h; sourceTree = "<group>"; };
 		664A75E224CA7E3A00B6DE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		664A75E724CA7E3A00B6DE6B /* WonderSenseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderSenseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		664A75EC24CA7E3A00B6DE6B /* WonderSenseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderSenseKitTests.swift; sourceTree = "<group>"; };
 		664A75EE24CA7E3A00B6DE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664A75FA24CA82C900B6DE6B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		664A75FB24CA82C900B6DE6B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		677B32AA4A4D50DAEA28BD3C /* Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig"; path = "Target Support Files/Pods-WonderSenseKit-WonderSenseKitTests/Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73953A5C466F5F9BD003517B /* Pods_WonderSenseKit_WonderSenseKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WonderSenseKit_WonderSenseKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9268D05C56D2AD45EB1D559F /* Pods_WonderSenseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WonderSenseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75AD8DF4D705266A831C650 /* Pods-WonderSenseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonderSenseKit.release.xcconfig"; path = "Target Support Files/Pods-WonderSenseKit/Pods-WonderSenseKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667E851929BA1E8C7F4A6C7B /* Pods_WonderSenseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +71,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				664A75E824CA7E3A00B6DE6B /* WonderSenseKit.framework in Frameworks */,
+				796C7FE583FEF0F48C12D8E3 /* Pods_WonderSenseKit_WonderSenseKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EAC46E9764430AE4FFC5ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9268D05C56D2AD45EB1D559F /* Pods_WonderSenseKit.framework */,
+				73953A5C466F5F9BD003517B /* Pods_WonderSenseKit_WonderSenseKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		664A75D424CA7E3A00B6DE6B = {
 			isa = PBXGroup;
 			children = (
+				664A75FB24CA82C900B6DE6B /* Nimble.framework */,
+				664A75FA24CA82C900B6DE6B /* Quick.framework */,
 				664A75E024CA7E3A00B6DE6B /* WonderSenseKit */,
 				664A75EB24CA7E3A00B6DE6B /* WonderSenseKitTests */,
 				664A75DF24CA7E3A00B6DE6B /* Products */,
+				6A87F64929EFC0475280E870 /* Pods */,
+				3EAC46E9764430AE4FFC5ADD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +127,17 @@
 			path = WonderSenseKitTests;
 			sourceTree = "<group>";
 		};
+		6A87F64929EFC0475280E870 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				267EAC28AC0EF2A6B05E9132 /* Pods-WonderSenseKit.debug.xcconfig */,
+				C75AD8DF4D705266A831C650 /* Pods-WonderSenseKit.release.xcconfig */,
+				677B32AA4A4D50DAEA28BD3C /* Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig */,
+				3CEEBEE3CAFA293BE4A1FC64 /* Pods-WonderSenseKit-WonderSenseKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,10 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 664A75F224CA7E3A00B6DE6B /* Build configuration list for PBXNativeTarget "WonderSenseKit" */;
 			buildPhases = (
+				A7F2EA1A4D9CF58917880380 /* [CP] Check Pods Manifest.lock */,
 				664A75D924CA7E3A00B6DE6B /* Headers */,
 				664A75DA24CA7E3A00B6DE6B /* Sources */,
 				664A75DB24CA7E3A00B6DE6B /* Frameworks */,
 				664A75DC24CA7E3A00B6DE6B /* Resources */,
+				664A75F824CA825E00B6DE6B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -122,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 664A75F524CA7E3A00B6DE6B /* Build configuration list for PBXNativeTarget "WonderSenseKitTests" */;
 			buildPhases = (
+				9B61723DD819F81C3C2D165C /* [CP] Check Pods Manifest.lock */,
 				664A75E324CA7E3A00B6DE6B /* Sources */,
 				664A75E424CA7E3A00B6DE6B /* Frameworks */,
 				664A75E524CA7E3A00B6DE6B /* Resources */,
+				664A75F924CA829700B6DE6B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -189,6 +245,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		664A75F824CA825E00B6DE6B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+		9B61723DD819F81C3C2D165C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WonderSenseKit-WonderSenseKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F2EA1A4D9CF58917880380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WonderSenseKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		664A75DA24CA7E3A00B6DE6B /* Sources */ = {
@@ -339,6 +459,7 @@
 		};
 		664A75F324CA7E3A00B6DE6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 267EAC28AC0EF2A6B05E9132 /* Pods-WonderSenseKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -363,6 +484,7 @@
 		};
 		664A75F424CA7E3A00B6DE6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75AD8DF4D705266A831C650 /* Pods-WonderSenseKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -387,6 +509,7 @@
 		};
 		664A75F624CA7E3A00B6DE6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677B32AA4A4D50DAEA28BD3C /* Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 339P82ZNV5;
@@ -405,6 +528,7 @@
 		};
 		664A75F724CA7E3A00B6DE6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CEEBEE3CAFA293BE4A1FC64 /* Pods-WonderSenseKit-WonderSenseKitTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 339P82ZNV5;
