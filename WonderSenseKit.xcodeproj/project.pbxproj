@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		664A75E824CA7E3A00B6DE6B /* WonderSenseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A75DE24CA7E3A00B6DE6B /* WonderSenseKit.framework */; };
 		664A75ED24CA7E3A00B6DE6B /* WonderSenseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A75EC24CA7E3A00B6DE6B /* WonderSenseKitTests.swift */; };
-		664A75FC24CA82C900B6DE6B /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664A75FA24CA82C900B6DE6B /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		664A75FD24CA82C900B6DE6B /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664A75FB24CA82C900B6DE6B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		664A75FF24CA842000B6DE6B /* WSDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A75FE24CA841F00B6DE6B /* WSDataModel.swift */; };
 		664A760724CA842C00B6DE6B /* WSFKF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A760124CA842B00B6DE6B /* WSFKF.swift */; };
 		664A760824CA842C00B6DE6B /* WSDataStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A760224CA842B00B6DE6B /* WSDataStream.swift */; };
@@ -38,6 +36,8 @@
 		664A766424CA8AD700B6DE6B /* WonderSenseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A75DE24CA7E3A00B6DE6B /* WonderSenseKit.framework */; };
 		664A766624CA8BAF00B6DE6B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A766524CA8BAF00B6DE6B /* Extension.swift */; };
 		664A766824CA8C2E00B6DE6B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 664A766724CA8C2E00B6DE6B /* Settings.bundle */; };
+		664A766B24CA8E0F00B6DE6B /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664A766A24CA8E0F00B6DE6B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		664A766D24CA8E1E00B6DE6B /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664A766C24CA8E1E00B6DE6B /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		667E851929BA1E8C7F4A6C7B /* Pods_WonderSenseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9268D05C56D2AD45EB1D559F /* Pods_WonderSenseKit.framework */; };
 		796C7FE583FEF0F48C12D8E3 /* Pods_WonderSenseKit_WonderSenseKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73953A5C466F5F9BD003517B /* Pods_WonderSenseKit_WonderSenseKitTests.framework */; };
 /* End PBXBuildFile section */
@@ -66,8 +66,17 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				664A75FC24CA82C900B6DE6B /* Quick.framework in CopyFiles */,
-				664A75FD24CA82C900B6DE6B /* Nimble.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664A766924CA8DF400B6DE6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				664A766D24CA8E1E00B6DE6B /* Quick.framework in CopyFiles */,
+				664A766B24CA8E0F00B6DE6B /* Nimble.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +90,6 @@
 		664A75E724CA7E3A00B6DE6B /* WonderSenseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderSenseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		664A75EC24CA7E3A00B6DE6B /* WonderSenseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderSenseKitTests.swift; sourceTree = "<group>"; };
 		664A75EE24CA7E3A00B6DE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		664A75FA24CA82C900B6DE6B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
-		664A75FB24CA82C900B6DE6B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
 		664A75FE24CA841F00B6DE6B /* WSDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSDataModel.swift; sourceTree = "<group>"; };
 		664A760124CA842B00B6DE6B /* WSFKF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSFKF.swift; sourceTree = "<group>"; };
 		664A760224CA842B00B6DE6B /* WSDataStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSDataStream.swift; sourceTree = "<group>"; };
@@ -113,6 +120,8 @@
 		664A764F24CA8AB700B6DE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		664A766524CA8BAF00B6DE6B /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		664A766724CA8C2E00B6DE6B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		664A766A24CA8E0F00B6DE6B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
+		664A766C24CA8E1E00B6DE6B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
 		677B32AA4A4D50DAEA28BD3C /* Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig"; path = "Target Support Files/Pods-WonderSenseKit-WonderSenseKitTests/Pods-WonderSenseKit-WonderSenseKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		73953A5C466F5F9BD003517B /* Pods_WonderSenseKit_WonderSenseKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WonderSenseKit_WonderSenseKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9268D05C56D2AD45EB1D559F /* Pods_WonderSenseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WonderSenseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,8 +167,8 @@
 		3EAC46E9764430AE4FFC5ADD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				664A75FB24CA82C900B6DE6B /* Nimble.framework */,
-				664A75FA24CA82C900B6DE6B /* Quick.framework */,
+				664A766C24CA8E1E00B6DE6B /* Quick.framework */,
+				664A766A24CA8E0F00B6DE6B /* Nimble.framework */,
 				9268D05C56D2AD45EB1D559F /* Pods_WonderSenseKit.framework */,
 				73953A5C466F5F9BD003517B /* Pods_WonderSenseKit_WonderSenseKitTests.framework */,
 			);
@@ -319,6 +328,7 @@
 				664A75DB24CA7E3A00B6DE6B /* Frameworks */,
 				664A75DC24CA7E3A00B6DE6B /* Resources */,
 				664A75F824CA825E00B6DE6B /* ShellScript */,
+				664A766924CA8DF400B6DE6B /* CopyFiles */,
 			);
 			buildRules = (
 			);
