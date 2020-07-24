@@ -1,0 +1,35 @@
+disabled_rules:
+  - weak_delegate
+  - function_body_length
+  - function_parameter_count
+  - identifier_name
+  - nesting
+  - todo
+  - force_cast
+  - force_try
+  - block_based_kvo
+  - cyclomatic_complexity
+  - line_length
+  - type_name
+  - type_body_length
+  - file_length
+
+  - trailing_whitespace
+
+opt_in_rules:
+  - closure_parameter_position
+  - closure_spacing
+  - empty_count
+  - explicit_init
+  - redundant_nil_coalescing
+
+included:
+  - WonderSenseKit
+
+excluded:
+  - Carthage/
+  - Frameworks/
+  - Pods/
+  - vendor/
+
+reporter: "xcode"

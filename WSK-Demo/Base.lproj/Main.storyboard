@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WSK_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vS1-oe-NpI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="B68-wo-b0R">
+                                <rect key="frame" x="20" y="44" width="374" height="683"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAk-sP-3J3">
+                                <rect key="frame" x="107" y="747" width="200" height="40"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="huF-VU-bQt"/>
+                                    <constraint firstAttribute="height" constant="40" id="uVU-Zu-WlE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Scan">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73V-zH-5vb">
+                                <rect key="frame" x="107" y="797" width="200" height="40"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="3j6-RO-IIc"/>
+                                    <constraint firstAttribute="height" constant="40" id="gfj-Ho-CVV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Connect">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="B68-wo-b0R" firstAttribute="top" secondItem="B8a-HG-bTU" secondAttribute="top" id="29B-Oc-gC1"/>
+                            <constraint firstItem="73V-zH-5vb" firstAttribute="centerX" secondItem="vS1-oe-NpI" secondAttribute="centerX" id="Fdg-FZ-f7f"/>
+                            <constraint firstItem="73V-zH-5vb" firstAttribute="top" secondItem="XAk-sP-3J3" secondAttribute="bottom" constant="10" id="Hnt-P7-WBO"/>
+                            <constraint firstItem="B8a-HG-bTU" firstAttribute="bottom" secondItem="73V-zH-5vb" secondAttribute="bottom" constant="25" id="II4-5v-dRD"/>
+                            <constraint firstItem="B68-wo-b0R" firstAttribute="leading" secondItem="vS1-oe-NpI" secondAttribute="leadingMargin" id="NSw-7b-2D8"/>
+                            <constraint firstItem="XAk-sP-3J3" firstAttribute="top" secondItem="B68-wo-b0R" secondAttribute="bottom" constant="20" id="VrH-kb-JMg"/>
+                            <constraint firstItem="B68-wo-b0R" firstAttribute="centerX" secondItem="XAk-sP-3J3" secondAttribute="centerX" id="cMM-5I-YH2"/>
+                            <constraint firstItem="XAk-sP-3J3" firstAttribute="centerX" secondItem="vS1-oe-NpI" secondAttribute="centerX" id="nc8-aG-pkv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="B8a-HG-bTU"/>
+                    </view>
+                    <connections>
+                        <outlet property="connectButton" destination="73V-zH-5vb" id="t18-Db-7NF"/>
+                        <outlet property="logTextView" destination="B68-wo-b0R" id="UYi-IE-VcP"/>
+                        <outlet property="scanButton" destination="XAk-sP-3J3" id="fZl-FL-xC6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7" y="133"/>
+        </scene>
+    </scenes>
+</document>
